@@ -53,6 +53,7 @@ Theta_grad_reg = lambda*Theta;
 
 X_grad = X_grad + X_grad_reg;
 Theta_grad = Theta_grad + Theta_grad_reg;
+
 % =============================================================
 
 grad = [X_grad(:); Theta_grad(:)];
